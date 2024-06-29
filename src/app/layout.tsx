@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google"; 
+import { Livvic } from "next/font/google"; 
 import "./globals.css";
 
 
-const lato = Lato({
+const lato = Livvic({
   subsets: ["latin"],
   weight: ["400", "700"], 
 });
