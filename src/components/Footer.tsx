@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                     className="text-right"
                 >
                     <p className="text-sm text-gray-600 mb-1">
-                        Let's create something amazing
+                        Lets create something amazing
                     </p>
                     <p className="text-xs text-gray-500">
                         &copy; {currentYear} Created by Founders Edge
