@@ -5,6 +5,7 @@ import Image from "next/image";
 import PricingSection from "@/components/Pricing";
 import ContactSection from "@/components/ContactSection";
 import HowItWorks from "@/components/HowItWorks";
+import Footer from "@/components/Footer";
 
 
 
@@ -16,6 +17,7 @@ export default function Home() {
     <HowItWorks/>
     <PricingSection/>
     <ContactSection/>
+    <Footer />
     </>
   );
 }
