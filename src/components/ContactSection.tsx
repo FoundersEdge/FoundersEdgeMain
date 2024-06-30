@@ -199,7 +199,7 @@ const ContactSection: React.FC = () => {
         </motion.div>
         <div>
           <p className="font-bold text-lg">Woohoo! Message sent!</p>
-          <p className="text-sm">We'll make sure to get back to you within 24hours! 🐆☕</p>
+          <p className="text-sm">We will make sure to get back to you within 24hours! 🐆☕</p>
         </div>
       </div>
     </motion.div>
