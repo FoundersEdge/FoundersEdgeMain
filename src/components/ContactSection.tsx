@@ -54,7 +54,7 @@ const ContactSection: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          Let's book in a call!
+          Lets book in a call!
         </motion.h2>
         <motion.p
           className="text-center text-gray-600 mb-8"
