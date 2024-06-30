@@ -81,9 +81,6 @@ const PricingTier: React.FC<PricingTierProps> = ({ title, details, price, featur
                 Contact us!
             </button>
 
-
-
-
             <ul className="text-sm space-y-2 text-gray-600">
                 {['Feature 1', 'Feature 2', 'Feature 3', 'Feature 4', 'Feature 5', 'Feature 6'].map((feature, index) => (
                     <li key={index} className={`flex items-center ${getFeatureStyle(index)}`}>
@@ -92,7 +89,6 @@ const PricingTier: React.FC<PricingTierProps> = ({ title, details, price, featur
                     </li>
                 ))}
             </ul>
-
 
         </motion.div>
     );
@@ -156,7 +152,7 @@ const PricingSection: React.FC = () => {
                     initial="hidden"
                     animate={controls}
                 >
-                    <motion.h2 variants={itemVariants} className="text-5xl font-extrabold text-center mb-3 text-gray-800 tracking-tight">Choose Your Perfect Plan 🚀</motion.h2>
+                    <motion.h2 variants={itemVariants} className="text-5xl font-extrabold text-center mb-3 text-neutral-700 tracking-tight">Choose Your Perfect Plan 🚀</motion.h2>
                     <motion.p variants={itemVariants} className="text-xl text-center text-gray-600 mb-12">Tailored plans to help your business</motion.p>
                     <div className="grid md:grid-cols-3 gap-8 mb-16">
                         {tiers.map((tier) => (
